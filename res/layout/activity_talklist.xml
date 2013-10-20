@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/talklist_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TalklistActivity" >
+
+   <TextView
+       android:id="@+id/textView_talklist_caption"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:background="@color/darkblue"
+       android:text="@string/button_quick_scan"
+       android:textColor="@color/white"
+       android:textSize="@dimen/caption" />
+
+   <ListView
+       android:id="@android:id/list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+   </ListView>
+
+</LinearLayout>
